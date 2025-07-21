@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>StopWatch</title>
+</head>
+<body>
+    <section class="main-sec">
+        <div class="main-sec-container">
+            <div class="stopwatch-container">
+                <h1 class="alt-title">Stop Watch</h1>
+                <h1 class="alt-title">counts the time to the millisecond that passes after you click the Start button.</h1>
+            </div>
+
+            <div class="stop-watch-main">
+                <p class="main-timer"> <span id="minutes" class="minutes">0</span> : <span id="seconds" class="seconds">00</span> <span id="milliseconds" class="milliseconds">00</span></p>
+
+                <div class="p-btns">
+                    <button id="main-btn">Start</button>
+                    <button id="stop-btn">Stop</button>
+                    <button id="reset-btn">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
